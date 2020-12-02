@@ -1,7 +1,7 @@
 all : example
 
-example : example.cpp
-	g++ -o example example.cpp
+example : main.cpp
+	g++ -o example main.cpp
 	
 clean :
 	rm -f example
